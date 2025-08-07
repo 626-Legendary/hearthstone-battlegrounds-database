@@ -1,0 +1,27 @@
+.nav{
+    margin: 0 auto;
+    width: 95.5vw;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    
+}
+.nav ul li a{
+    font-size: 20px;
+    color: #614326;
+    text-decoration: none;
+}
+.nav::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #333; /* 线的颜色 */
+  margin-top: 8px;         /* 线与列表之间的间距 */
+}
+.version{
+    text-align: end;
+    margin-right: 2vw;
+}
+

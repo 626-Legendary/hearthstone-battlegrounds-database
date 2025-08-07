@@ -1,0 +1,93 @@
+.titleMiddleBG {
+  position: relative;
+}
+
+.titleMiddleIMG {
+  display: block;
+  margin: 0 auto;
+}
+
+.titleMiddleContent {
+  position: absolute;
+  /* 放在图片上方 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  /* 加上这一行才能启用居中对齐 */
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+
+  font-size: 20px;
+  color: #614326;
+
+  pointer-events: none;
+  /* 避免阻止鼠标事件 */
+}
+
+
+.display-grid {
+  max-width: 1920px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  ;
+  gap: 20px;
+  /* 卡片间距 */
+  justify-content: space-evenly;
+  /* 靠左排列 */
+}
+
+/* 卡片的最小宽度，和自动放大 */
+.hero-card {
+  /* flex: 0 1 335px; */
+  /* flex-grow:1, flex-shrink:1, basis:50px */
+  width: 335px;
+
+  box-sizing: border-box;
+}
+
+.hero-card img {
+  width: 240px;
+}
+
+.minion-card {
+  /* flex: 0 1 240px; */
+  /* flex-grow:1, flex-shrink:1, basis:50px */
+  width: 240px;
+
+  box-sizing: border-box;
+}
+.minion-card img{
+  width: 180px;
+}
+
+@media (max-width: 1300px) {
+  .hero-card {
+    width: 35vw;
+  }
+
+  .hero-card img {
+    /* flex: 0 1 335px; */
+    /* flex-grow:1, flex-shrink:1, basis:50px */
+    width: 35vw;
+
+
+  }
+  .minion-card {
+    width: 40vw;
+  }
+
+  .minion-card img {
+    /* flex: 0 1 335px; */
+    /* flex-grow:1, flex-shrink:1, basis:50px */
+    width: 40vw;
+
+
+  }
+
+}
