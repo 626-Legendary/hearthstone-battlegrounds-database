@@ -15,8 +15,12 @@ A fan-made visual encyclopedia for Hearthstone: Battlegrounds — featuring a se
 
 ## 📸 Preview
 
-![Screenshot](public/preview.png)  
-*(Add a screenshot if available)*
+![Preview of Hearthstone Battlegrounds Database](https://raw.githubusercontent.com/626-Legendary/hearthstone-battlegrounds-database/main/public/ScreenShot%201.png)
+
+![Preview of Hearthstone Battlegrounds Database](https://raw.githubusercontent.com/626-Legendary/hearthstone-battlegrounds-database/main/public/ScreenShot%202.png)
+
+![Preview of Hearthstone Battlegrounds Database](https://raw.githubusercontent.com/626-Legendary/hearthstone-battlegrounds-database/main/public/ScreenShot%203.png)
+
 
 ## 🛠️ Tech Stack
 
